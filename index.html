@@ -1,0 +1,1129 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marrakech t’attend — Découvre le Maroc</title>
+  <meta name="description" content="Une publicité touristique pour le Maroc et Marrakech : culture, cuisine, football et conseils de voyage. Projet de français de base, 12e année.">
+  <meta name="theme-color" content="#140d33">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-32 -32 64 64'%3E%3Cpath d='M28.28 0L20 8.28L20 20L8.28 20L0 28.28L-8.28 20L-20 20L-20 8.28L-28.28 0L-20 -8.28L-20 -20L-8.28 -20L0 -28.28L8.28 -20L20 -20L20 -8.28Z' fill='%23f2a516'/%3E%3Ccircle r='9' fill='%232a46d4'/%3E%3C/svg%3E">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     Bibliothèque SVG partagée : motifs, symboles, masques
+     ============================================================ -->
+<svg class="svg-defs" width="0" height="0" aria-hidden="true" focusable="false">
+  <defs>
+    <path id="star8" d="M28.28 0L20 8.28L20 20L8.28 20L0 28.28L-8.28 20L-20 20L-20 8.28L-28.28 0L-20 -8.28L-20 -20L-8.28 -20L0 -28.28L8.28 -20L20 -20L20 -8.28Z"/>
+
+    <!-- Arc outrepassé (en fer à cheval) -->
+    <clipPath id="arch-clip" clipPathUnits="objectBoundingBox">
+      <path d="M0.1,1 V0.56 C0.035,0.5 0,0.44 0,0.37 A0.5,0.37 0 0 1 1,0.37 C1,0.44 0.965,0.5 0.9,0.56 V1 Z"/>
+    </clipPath>
+
+    <!-- Zellige plein -->
+    <pattern id="zellige-fill" width="44" height="44" patternUnits="userSpaceOnUse" viewBox="0 0 80 80">
+      <rect width="80" height="80" fill="#2a46d4"/>
+      <g fill="#f7ead4" stroke="#140d33" stroke-width="1.5">
+        <use href="#star8" x="40" y="40"/><use href="#star8"/><use href="#star8" x="80"/><use href="#star8" y="80"/><use href="#star8" x="80" y="80"/>
+      </g>
+      <g fill="#c4552d">
+        <use href="#star8" transform="translate(40 40) scale(.42)"/><use href="#star8" transform="scale(.42)"/><use href="#star8" transform="translate(80 0) scale(.42)"/><use href="#star8" transform="translate(0 80) scale(.42)"/><use href="#star8" transform="translate(80 80) scale(.42)"/>
+      </g>
+      <g fill="#f2a516"><circle cx="40" cy="40" r="3.5"/><circle r="3.5"/><circle cx="80" r="3.5"/><circle cy="80" r="3.5"/><circle cx="80" cy="80" r="3.5"/></g>
+    </pattern>
+
+    <!-- Zellige vert et blanc (pour la cuisine et le palais) -->
+    <pattern id="zellige-green" width="36" height="36" patternUnits="userSpaceOnUse" viewBox="0 0 80 80">
+      <rect width="80" height="80" fill="#0f5a46"/>
+      <g fill="#f7ead4" stroke="#0a3a2e" stroke-width="1.5">
+        <use href="#star8" x="40" y="40"/><use href="#star8"/><use href="#star8" x="80"/><use href="#star8" y="80"/><use href="#star8" x="80" y="80"/>
+      </g>
+      <g fill="#2a46d4"><use href="#star8" transform="translate(40 40) scale(.4)"/><use href="#star8" transform="scale(.4)"/><use href="#star8" transform="translate(80 0) scale(.4)"/><use href="#star8" transform="translate(0 80) scale(.4)"/><use href="#star8" transform="translate(80 80) scale(.4)"/></g>
+    </pattern>
+
+    <linearGradient id="gold-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe29a"/><stop offset=".5" stop-color="#e2a83a"/><stop offset="1" stop-color="#a8701f"/>
+    </linearGradient>
+    <radialGradient id="lantern-light" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#fff6cf"/><stop offset=".45" stop-color="#ffc85a"/><stop offset="1" stop-color="#e2731f"/>
+    </radialGradient>
+
+    <!-- Rosace -->
+    <symbol id="rosette" viewBox="-50 -50 100 100">
+      <circle r="47" fill="none" stroke="currentColor" stroke-width="2.5"/>
+      <use href="#star8" transform="scale(1.52)" fill="none" stroke="currentColor" stroke-width="2"/>
+      <use href="#star8" transform="rotate(22.5) scale(1.05)" fill="currentColor" opacity=".9"/>
+      <circle r="9" fill="none" stroke="#140d33" stroke-width="2.5"/>
+    </symbol>
+
+    <!-- Palmier -->
+    <symbol id="palm" viewBox="0 0 200 400">
+      <path d="M95,400 C98,300 92,200 103,108 L113,108 C103,200 111,300 111,400 Z"/>
+      <path d="M108,108 C80,80 40,80 4,112 C40,92 76,98 108,114 Z"/>
+      <path d="M108,108 C82,62 52,40 18,40 C52,54 82,78 106,114 Z"/>
+      <path d="M108,108 C100,62 108,30 122,4 C116,40 116,72 113,112 Z"/>
+      <path d="M108,108 C140,62 170,46 198,52 C166,62 140,84 110,114 Z"/>
+      <path d="M108,108 C150,96 182,112 200,144 C176,122 144,114 110,116 Z"/>
+      <path d="M108,110 C88,130 70,160 60,198 C64,160 84,128 106,106 Z"/>
+      <path d="M108,110 C130,130 146,160 152,192 C140,160 126,136 106,108 Z"/>
+      <path d="M108,108 C70,100 36,124 18,162 C44,128 76,114 108,114 Z"/>
+      <circle cx="104" cy="120" r="5"/><circle cx="113" cy="122" r="5"/><circle cx="108" cy="128" r="5"/>
+    </symbol>
+
+    <!-- Lanterne marocaine -->
+    <symbol id="lantern" viewBox="0 0 40 90">
+      <circle cx="20" cy="4" r="2.6" fill="none" stroke="#c9953a" stroke-width="1.6"/>
+      <path d="M20,7 V14" stroke="#c9953a" stroke-width="1.6"/>
+      <path d="M11,24 Q20,9 29,24 Z" fill="#7a4a1c" stroke="#e7b552" stroke-width="1"/>
+      <rect x="9" y="23" width="22" height="4" rx="1" fill="#c9953a"/>
+      <path d="M9,27 H31 L35,45 L28,62 H12 L5,45 Z" fill="url(#lantern-light)"/>
+      <g fill="none" stroke="#5a3314" stroke-width="1.4">
+        <path d="M9,27 H31 L35,45 L28,62 H12 L5,45 Z"/>
+        <path d="M15,27 V62 M25,27 V62 M5,45 H35"/>
+        <path d="M12,40 q3,-6 6,0 M22,40 q3,-6 6,0 M12,54 q3,-6 6,0 M22,54 q3,-6 6,0" stroke-width="1"/>
+      </g>
+      <rect x="11" y="61" width="18" height="3.5" rx="1" fill="#c9953a"/>
+      <path d="M13,64.5 H27 L20,78 Z" fill="#7a4a1c" stroke="#e7b552" stroke-width="1"/>
+      <circle cx="20" cy="81" r="2" fill="#e7b552"/>
+    </symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#pourquoi">Aller au contenu</a>
+
+<!-- Ouverture : les portes de la médina -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro__door intro__door--l"><span class="intro__studs"></span></div>
+  <div class="intro__door intro__door--r"><span class="intro__studs"></span></div>
+  <div class="intro__center">
+    <svg class="intro__rosette" viewBox="-50 -50 100 100"><use href="#rosette"/></svg>
+    <p class="intro__hello"><span>Bienvenue</span><span lang="ar" dir="rtl">مرحبا</span><span class="tfng" lang="zgh">ⴰⵣⵓⵍ</span></p>
+  </div>
+</div>
+
+<div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#accueil" aria-label="Retour à l’accueil">
+    <svg viewBox="-50 -50 100 100" aria-hidden="true"><use href="#rosette"/></svg>
+    <span>Maroc<em>·</em>Marrakech</span>
+  </a>
+  <button class="nav__burger" id="nav-burger" aria-expanded="false" aria-controls="nav-menu">
+    <span></span><span></span><span></span><span class="sr-only">Ouvrir le menu</span>
+  </button>
+  <nav id="nav-menu" class="nav__menu" aria-label="Navigation principale">
+    <ul>
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#pourquoi">Pourquoi&nbsp;?</a></li>
+      <li><a href="#marrakech">Marrakech</a></li>
+      <li><a href="#culture">Culture</a></li>
+      <li><a href="#cuisine">À&nbsp;table</a></li>
+      <li><a href="#football">Football</a></li>
+      <li><a href="#voyage">Voyage</a></li>
+      <li><a href="#art">Art</a></li>
+      <li><a href="#projet">Mon projet</a></li>
+      <li><a href="#sources">Sources</a></li>
+      <li><a href="#quiz">Quiz</a></li>
+      <li><a href="map.html" class="nav__map">Carte&nbsp;↗</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- =========================================================
+     1. HERO
+     ========================================================= -->
+<section id="accueil" class="hero" data-slide="Accueil" aria-labelledby="hero-title">
+  <div class="hero__layers" aria-hidden="true">
+    <!-- Ciel + soleil -->
+    <div class="hero__layer" data-depth="0.6">
+      <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#140d33"/>
+            <stop offset=".3" stop-color="#34185a"/>
+            <stop offset=".52" stop-color="#8a2d63"/>
+            <stop offset=".68" stop-color="#cf4f45"/>
+            <stop offset=".82" stop-color="#ef8f3a"/>
+            <stop offset="1" stop-color="#f8c45e"/>
+          </linearGradient>
+          <radialGradient id="sun-glow" cx="760" cy="650" r="560" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffd884" stop-opacity=".95"/>
+            <stop offset=".22" stop-color="#f9a04a" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#f9a04a" stop-opacity="0"/>
+          </radialGradient>
+          <radialGradient id="sun-disc" cx="50%" cy="38%" r="65%">
+            <stop offset="0" stop-color="#fff7d6"/><stop offset=".55" stop-color="#ffd270"/><stop offset="1" stop-color="#f4863a"/>
+          </radialGradient>
+        </defs>
+        <rect width="1600" height="900" fill="url(#sky)"/>
+        <g id="hero-stars" class="stars"></g>
+        <circle cx="760" cy="650" r="560" fill="url(#sun-glow)"/>
+        <g class="sun"><circle cx="760" cy="640" r="128" fill="url(#sun-disc)"/></g>
+        <g class="birds" fill="none" stroke="#2a1035" stroke-width="2.4" stroke-linecap="round">
+          <path d="M0,0 q7,-7 14,0 q7,-7 14,0"/>
+          <path d="M40,22 q5,-5 10,0 q5,-5 10,0"/>
+          <path d="M-30,30 q4,-4 8,0 q4,-4 8,0"/>
+        </g>
+      </svg>
+    </div>
+    <!-- Atlas -->
+    <div class="hero__layer" data-depth="0.45">
+      <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+        <path d="M0,640 L90,606 L170,626 L260,572 L340,606 L430,556 L520,598 L610,566 L700,610 L800,578 L890,602 L990,550 L1090,596 L1190,560 L1300,604 L1390,572 L1490,608 L1600,580 V900 H0 Z" fill="#8c3d62" opacity=".55"/>
+        <path d="M260,572 L282,585 L300,580 L318,594 L340,606 L300,592 Z M430,556 L452,570 L470,566 L495,584 L520,598 L470,578 Z M990,550 L1015,566 L1035,560 L1060,580 L1090,596 L1035,572 Z M1190,560 L1212,574 L1232,570 L1260,588 L1300,604 L1230,580 Z" fill="#f6c9b3" opacity=".35"/>
+        <path d="M0,690 L120,664 L240,682 L380,650 L520,680 L660,656 L820,684 L960,660 L1120,686 L1260,662 L1420,688 L1600,666 V900 H0 Z" fill="#6c2a55" opacity=".7"/>
+      </svg>
+    </div>
+    <!-- Ville lointaine -->
+    <div class="hero__layer" data-depth="0.35">
+      <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+        <path fill="#54204a" d="M0,900 V738 H38 V722 H52 V712 H64 V722 H96 V744 H140 V716 H186 V730 H230 V700 H246 V690 H258 V700 H290 V726 H340 V710 H392 V735 H436 V706 H480 V724 H520 V698 H560 V718 H610 V730 H660 V708 H700 V722 H760 V740 H820 V715 H870 V728 H920 V705 H960 V720 H1010 V734 H1060 V712 H1100 V726 H1260 V708 H1300 V720 H1350 V700 H1366 V688 H1380 V700 H1420 V724 H1470 V710 H1520 V730 H1560 V714 H1600 V900 Z"/>
+      </svg>
+    </div>
+    <!-- Koutoubia + médina -->
+    <div class="hero__layer" data-depth="0.25">
+      <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <pattern id="merl-mid" width="17.333" height="14" patternUnits="userSpaceOnUse">
+            <path d="M2,14 V7 H5 V3 H12.3 V7 H15.3 V14 Z" fill="#37163c"/>
+          </pattern>
+          <filter id="win-glow" x="-200%" y="-200%" width="500%" height="500%">
+            <feGaussianBlur stdDeviation="3" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <g fill="#37163c">
+          <path d="M0,900 V792 H48 V780 H112 V800 H170 V770 H214 V788 H262 V808 H318 V782 H352 V900 Z"/>
+          <rect x="350" y="784" width="110" height="116"/>
+          <path d="M366,784 A39,39 0 0 1 444,784 Z"/>
+          <rect x="403.5" y="728" width="3" height="20"/><circle cx="405" cy="726" r="4"/>
+          <path d="M460,900 V800 H520 V776 H560 V796 H640 V770 H690 V790 H760 V808 H840 V786 H900 V900 Z"/>
+          <rect x="905" y="752" width="245" height="148"/>
+          <rect x="905" y="740" width="245" height="14" fill="url(#merl-mid)"/>
+          <path d="M1242,900 V770 H1300 V752 H1330 V772 H1400 V790 H1460 V760 H1510 V780 H1560 V800 H1600 V900 Z"/>
+          <rect x="1300" y="740" width="30" height="14" fill="url(#merl-mid)"/>
+          <!-- Minaret -->
+          <rect x="1150" y="380" width="92" height="520"/>
+          <rect x="1144" y="366" width="104" height="16"/>
+          <rect x="1144" y="352" width="104" height="14" fill="url(#merl-mid)"/>
+          <rect x="1174" y="286" width="44" height="82"/>
+          <rect x="1172" y="276" width="12" height="12"/><rect x="1190" y="276" width="12" height="12"/><rect x="1208" y="276" width="12" height="12"/>
+          <path d="M1180,276 Q1196,244 1212,276 Z"/>
+        </g>
+        <!-- Lumière dorée sur l’arête gauche -->
+        <rect x="1150" y="380" width="4" height="440" fill="#f0a35c" opacity=".55"/>
+        <rect x="1174" y="286" width="3" height="80" fill="#f0a35c" opacity=".55"/>
+        <!-- Décor du minaret -->
+        <g fill="none" stroke="#5c2a58" stroke-width="2">
+          <rect x="1162" y="398" width="68" height="64"/>
+          <path d="M1166,462 q8,-22 15,0 q8,-22 15,0 q8,-22 15,0 q8,-22 15,0"/>
+          <path d="M1166,440 q8,-22 15,0 q8,-22 15,0 q8,-22 15,0 q8,-22 15,0"/>
+          <rect x="1182" y="300" width="28" height="48"/>
+        </g>
+        <!-- Flèche dorée et boules (jamour) -->
+        <rect x="1194.5" y="190" width="3" height="66" fill="#c89036"/>
+        <circle cx="1196" cy="238" r="7.5" fill="url(#gold-grad)"/>
+        <circle cx="1196" cy="219" r="6" fill="url(#gold-grad)"/>
+        <circle cx="1196" cy="203" r="4.5" fill="url(#gold-grad)"/>
+        <!-- Fenêtres allumées -->
+        <g fill="#ffbf5e" filter="url(#win-glow)">
+          <path d="M1190,560 v-16 a6,6 0 0 1 12,0 v16 z"/>
+          <path d="M1190,690 v-16 a6,6 0 0 1 12,0 v16 z"/>
+          <path d="M1164,620 v-12 a5,5 0 0 1 10,0 v12 z"/>
+          <path d="M1218,760 v-12 a5,5 0 0 1 10,0 v12 z"/>
+          <path d="M930,800 v-14 a6,6 0 0 1 12,0 v14 z"/><path d="M968,800 v-14 a6,6 0 0 1 12,0 v14 z"/><path d="M1006,800 v-14 a6,6 0 0 1 12,0 v14 z"/><path d="M1044,800 v-14 a6,6 0 0 1 12,0 v14 z"/><path d="M1082,800 v-14 a6,6 0 0 1 12,0 v14 z"/><path d="M1120,800 v-14 a6,6 0 0 1 12,0 v14 z"/>
+          <rect x="60" y="812" width="8" height="12"/><rect x="130" y="822" width="8" height="12"/><rect x="232" y="808" width="8" height="12"/>
+          <path d="M398,830 v-14 a7,7 0 0 1 14,0 v14 z"/>
+          <rect x="560" y="815" width="8" height="12"/><rect x="700" y="822" width="8" height="12"/><rect x="800" y="828" width="8" height="12"/>
+          <rect x="1320" y="790" width="8" height="12"/><rect x="1420" y="810" width="8" height="12"/><rect x="1480" y="786" width="8" height="12"/><rect x="1540" y="814" width="8" height="12"/>
+        </g>
+      </svg>
+    </div>
+    <!-- Palmiers -->
+    <div class="hero__layer" data-depth="0.12">
+      <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" fill="#22102c">
+        <use href="#palm" x="60" y="500" width="170" height="340"/>
+        <use href="#palm" x="190" y="570" width="120" height="250" transform="translate(500 0) scale(-1 1)"/>
+        <use href="#palm" x="590" y="560" width="130" height="270"/>
+        <use href="#palm" x="1270" y="460" width="190" height="380"/>
+        <use href="#palm" x="1400" y="540" width="140" height="290" transform="translate(2940 0) scale(-1 1)"/>
+        <use href="#palm" x="850" y="610" width="110" height="230" transform="translate(1810 0) scale(-1 1)"/>
+      </svg>
+    </div>
+    <!-- Premier plan : toits-terrasses -->
+    <div class="hero__layer" data-depth="0">
+      <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <pattern id="merl-front" width="18" height="14" patternUnits="userSpaceOnUse">
+            <path d="M2,14 V7 H5 V3 H13 V7 H16 V14 Z" fill="#130920"/>
+          </pattern>
+          <filter id="bulb-glow" x="-300%" y="-300%" width="700%" height="700%">
+            <feGaussianBlur stdDeviation="4" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <path fill="#130920" d="M0,900 V812 H70 V800 H84 V812 H210 V836 H330 V818 H344 V806 H358 V818 H470 V842 H600 V826 H760 V846 H900 V830 H1010 V850 H1120 V834 H1236 V690 H1242 V834 H1340 V812 H1352 V798 H1366 V812 H1480 V826 H1600 V900 Z"/>
+        <rect x="0" y="798" width="70" height="14" fill="url(#merl-front)"/>
+        <rect x="210" y="822" width="120" height="14" fill="url(#merl-front)"/>
+        <rect x="600" y="812" width="160" height="14" fill="url(#merl-front)"/>
+        <rect x="1366" y="798" width="114" height="14" fill="url(#merl-front)"/>
+        <path d="M520,900 V874 a14,14 0 0 1 28,0 V900 Z" fill="#ff9d45" opacity=".85" filter="url(#bulb-glow)"/>
+        <path d="M1239,692 Q1420,790 1600,724" fill="none" stroke="#2b1630" stroke-width="2"/>
+        <g class="bulbs" fill="#ffd27a" filter="url(#bulb-glow)">
+          <circle cx="1276" cy="711" r="4"/><circle cx="1312" cy="726" r="4"/><circle cx="1348" cy="737" r="4"/><circle cx="1384" cy="744" r="4"/><circle cx="1420" cy="747" r="4"/><circle cx="1456" cy="747" r="4"/><circle cx="1492" cy="744" r="4"/><circle cx="1528" cy="739" r="4"/><circle cx="1564" cy="731" r="4"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="hero__lanterns" aria-hidden="true">
+    <div class="lantern" style="--x:57%;--rope:70px;--s:.8;--d:6.2s;--delay:-1s"><span class="lantern__rope"></span><svg viewBox="0 0 40 90"><use href="#lantern"/></svg></div>
+    <div class="lantern" style="--x:63%;--rope:140px;--s:1.05;--d:5.4s;--delay:-3s"><span class="lantern__rope"></span><svg viewBox="0 0 40 90"><use href="#lantern"/></svg></div>
+    <div class="lantern" style="--x:85%;--rope:110px;--s:.95;--d:6.8s;--delay:-2s"><span class="lantern__rope"></span><svg viewBox="0 0 40 90"><use href="#lantern"/></svg></div>
+    <div class="lantern" style="--x:91%;--rope:50px;--s:.7;--d:5.8s;--delay:-4s"><span class="lantern__rope"></span><svg viewBox="0 0 40 90"><use href="#lantern"/></svg></div>
+    <div class="lantern" style="--x:96.5%;--rope:160px;--s:1.15;--d:7.2s;--delay:-.5s"><span class="lantern__rope"></span><svg viewBox="0 0 40 90"><use href="#lantern"/></svg></div>
+  </div>
+  <div class="hero__embers" id="hero-embers" aria-hidden="true"></div>
+  <div class="hero__shade" aria-hidden="true"></div>
+
+  <div class="hero__content">
+    <p class="hero__eyebrow">
+      <span>Maroc</span><span class="dot" aria-hidden="true">✦</span><span lang="ar" dir="rtl">المغرب</span><span class="dot" aria-hidden="true">✦</span><span class="tfng" lang="zgh">ⵍⵎⵖⵔⵉⴱ</span>
+    </p>
+    <h1 id="hero-title" class="hero__title">
+      <span class="hero__title-big">Marrakech</span>
+      <span class="hero__title-line">la ville rouge <em>t’attend.</em></span>
+    </h1>
+    <p class="hero__sub">Des souks parfumés, un jardin tout bleu, des palais en mosaïque et des nuits pleines d’étoiles. Le Maroc est à seulement 14&nbsp;km de l’Europe… et à un monde qui est très différent de chez nous.</p>
+    <div class="hero__ctas">
+      <a href="#pourquoi" class="btn btn--gold">Commence le voyage
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button type="button" class="btn btn--ghost" data-present>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 16v4M8 20h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        Mode présentation
+      </button>
+    </div>
+  </div>
+  <a href="#pourquoi" class="hero__scroll" aria-label="Défiler vers la section suivante"><span></span></a>
+</section>
+
+<div class="divider" aria-hidden="true"></div>
+
+<!-- =========================================================
+     2. POURQUOI LE MAROC ?
+     ========================================================= -->
+<section id="pourquoi" class="section section--sand" data-slide="Pourquoi le Maroc ?" aria-labelledby="pourquoi-title">
+  <div class="container">
+    <header class="section__head" data-reveal>
+      <p class="kicker"><span>01</span> Pourquoi le Maroc&nbsp;?</p>
+      <h2 id="pourquoi-title">Trois raisons de <em>faire tes valises</em></h2>
+    </header>
+
+    <div class="facts">
+      <article class="fact" data-reveal style="--i:0">
+        <div class="fact__icon" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="38" fill="#f7ead4" stroke="currentColor" stroke-width="4"/><path d="M50 32 l15 11 -6 18 h-18 l-6 -18z" fill="currentColor"/><path d="M50 32 V14 M65 43 l17 -6 M59 61 l11 15 M41 61 l-11 15 M35 43 l-17 -6" stroke="currentColor" stroke-width="4"/></svg>
+        </div>
+        <p class="fact__big"><span data-count="2030">2030</span></p>
+        <h3>La Coupe du monde</h3>
+        <p>En 2030, le Maroc va organiser la <strong>Coupe du monde de la FIFA</strong> avec l’<strong>Espagne</strong> et le <strong>Portugal</strong>. Le monde entier va regarder le Maroc&nbsp;!</p>
+      </article>
+
+      <article class="fact fact--featured" data-reveal style="--i:1">
+        <div class="fact__map" aria-hidden="true">
+          <svg viewBox="0 0 300 150">
+            <rect width="300" height="150" fill="#2a46d4"/>
+            <g stroke="#7d93ff" stroke-width="1.2" fill="none" opacity=".6"><path d="M20,75 q10,-4 20,0 t20,0"/><path d="M220,80 q10,-4 20,0 t20,0"/><path d="M200,68 q8,-3 16,0 t16,0"/></g>
+            <path d="M0,0 H300 V40 C255,52 205,46 166,58 C136,66 104,50 62,58 C32,64 12,55 0,60 Z" fill="#efdcbc"/>
+            <path d="M0,150 H300 V108 C262,100 222,108 182,98 C154,92 122,106 82,98 C44,92 20,102 0,98 Z" fill="#e07a4f"/>
+            <path d="M160,61 V96" stroke="#f2a516" stroke-width="3" stroke-dasharray="5 5" class="strait-line"/>
+            <circle cx="160" cy="60" r="4" fill="#f2a516"/><circle cx="160" cy="97" r="4" fill="#f2a516"/>
+            <text x="20" y="28" class="map-label">ESPAGNE</text>
+            <text x="20" y="132" class="map-label map-label--light">MAROC</text>
+            <rect x="174" y="66" width="62" height="24" rx="12" fill="#f2a516"/>
+            <text x="205" y="83" text-anchor="middle" class="map-km">14 km</text>
+          </svg>
+        </div>
+        <p class="fact__big"><span data-count="14">14</span><small>&nbsp;km</small></p>
+        <h3>Tout près de l’Europe</h3>
+        <p>Le Maroc est à <strong>environ 14&nbsp;km de l’Espagne</strong>, de l’autre côté du détroit de Gibraltar. Par beau temps, on peut voir l’Europe depuis la côte marocaine&nbsp;!</p>
+      </article>
+
+      <article class="fact" data-reveal style="--i:2">
+        <div class="fact__icon" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><path d="M18 72 L12 32 L34 50 L50 22 L66 50 L88 32 L82 72 Z" fill="currentColor"/><rect x="18" y="74" width="64" height="9" rx="2" fill="currentColor"/><circle cx="12" cy="30" r="5" fill="#f2a516"/><circle cx="50" cy="19" r="5" fill="#f2a516"/><circle cx="88" cy="30" r="5" fill="#f2a516"/><circle cx="50" cy="60" r="5" fill="#f2a516"/></svg>
+        </div>
+        <p class="fact__big fact__big--text">Mohammed&nbsp;VI</p>
+        <h3>Un royaume</h3>
+        <p>Le Maroc est une <strong>monarchie</strong>. Le roi s’appelle <strong>Mohammed&nbsp;VI</strong>. Il est roi depuis 1999.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     3. MARRAKECH
+     ========================================================= -->
+<section id="marrakech" class="section section--terracotta" data-slide="Marrakech" aria-labelledby="marrakech-title">
+  <div class="container">
+    <header class="section__head" data-reveal>
+      <p class="kicker kicker--light"><span>02</span> Marrakech</p>
+      <h2 id="marrakech-title">Marrakech, <em>la ville rouge</em></h2>
+      <p class="section__lead">On l’appelle «&nbsp;la ville rouge&nbsp;» à cause de la couleur de ses murs. Clique sur une carte pour découvrir ses trésors.</p>
+    </header>
+
+    <div class="places">
+      <!-- Jemaa el-Fna -->
+      <article class="place" data-reveal style="--i:0">
+        <div class="place__front">
+          <div class="frame">
+            <div class="photo" data-photo>
+              <svg class="photo__art" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                <defs><linearGradient id="j-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22134a"/><stop offset=".5" stop-color="#a8365c"/><stop offset="1" stop-color="#f29a3a"/></linearGradient>
+                <filter id="j-blur"><feGaussianBlur stdDeviation="8"/></filter></defs>
+                <rect width="400" height="500" fill="url(#j-sky)"/>
+                <g fill="#3a1838"><rect x="296" y="150" width="34" height="260"/><rect x="292" y="140" width="42" height="12"/><rect x="304" y="108" width="18" height="34"/><rect x="311.5" y="80" width="3" height="30" fill="#e2a83a"/><circle cx="313" cy="96" r="4" fill="#e2a83a"/></g>
+                <rect y="330" width="400" height="170" fill="#5c1f35"/>
+                <g fill="#fff" opacity=".22" filter="url(#j-blur)" class="smoke"><circle cx="70" cy="290" r="30"/><circle cx="90" cy="250" r="24"/><circle cx="230" cy="280" r="28"/><circle cx="250" cy="240" r="20"/></g>
+                <g>
+                  <path d="M0,340 L70,340 L60,306 L10,306 Z" fill="#f7ead4"/><path d="M90,345 L170,345 L158,308 L102,308 Z" fill="#f2a516"/><path d="M190,340 L270,340 L258,304 L202,304 Z" fill="#f7ead4"/><path d="M290,345 L370,345 L358,310 L302,310 Z" fill="#e07a4f"/><path d="M380,340 L400,340 L400,306 Z" fill="#f7ead4"/>
+                </g>
+                <g fill="#ffd27a"><rect x="8" y="340" width="56" height="26" opacity=".9"/><rect x="96" y="345" width="68" height="26" opacity=".9"/><rect x="196" y="340" width="68" height="26" opacity=".9"/><rect x="296" y="345" width="68" height="26" opacity=".9"/></g>
+                <path d="M0,200 Q100,240 200,205 T400,215" fill="none" stroke="#2b1630" stroke-width="1.5"/>
+                <g fill="#ffd27a"><circle cx="40" cy="214" r="4"/><circle cx="90" cy="223" r="4"/><circle cx="140" cy="220" r="4"/><circle cx="190" cy="208" r="4"/><circle cx="240" cy="204" r="4"/><circle cx="290" cy="212" r="4"/><circle cx="340" cy="218" r="4"/><circle cx="380" cy="215" r="4"/></g>
+                <g fill="#1d0f2a">
+                  <path d="M0,500 V440 q20,-30 40,0 q20,-36 44,0 q18,-28 38,0 q24,-40 46,0 q20,-30 40,0 q22,-38 46,0 q18,-26 36,0 q24,-36 48,0 q20,-30 40,0 q14,-24 22,0 V500 Z"/>
+                  <circle cx="20" cy="420" r="11"/><circle cx="62" cy="414" r="12"/><circle cx="102" cy="422" r="10"/><circle cx="145" cy="410" r="12"/><circle cx="190" cy="420" r="11"/><circle cx="234" cy="412" r="12"/><circle cx="276" cy="424" r="10"/><circle cx="318" cy="412" r="12"/><circle cx="360" cy="420" r="11"/>
+                </g>
+              </svg>
+              <img src="images/jemaa-el-fna.jpg" alt="La place Jemaa el-Fna à Marrakech, pleine de monde le soir" loading="lazy" decoding="async">
+            </div>
+          </div>
+          <span class="badge">UNESCO</span>
+          <h3>La place Jemaa el-Fna</h3>
+          <p>L'endroit populaire de la médina.</p>
+          <button type="button" class="place__open" aria-expanded="false">Découvrir <span aria-hidden="true">+</span></button>
+        </div>
+        <div class="place__panel" inert>
+          <h3>La place Jemaa el-Fna</h3>
+          <p>Le jour, il y a des vendeurs de jus d’orange, des musiciens et des conteurs. Le soir, la place devient un immense restaurant en plein air&nbsp;!</p>
+          <p>Elle est inscrite au <strong>patrimoine culturel immatériel de l’UNESCO</strong>.</p>
+          <ul class="chips"><li>Conteurs</li><li>Musique</li><li>Cuisine de rue</li></ul>
+          <button type="button" class="place__close">Fermer <span aria-hidden="true">×</span></button>
+        </div>
+      </article>
+
+      <!-- Jardin Majorelle -->
+      <article class="place" data-reveal style="--i:1">
+        <div class="place__front">
+          <div class="frame">
+            <div class="photo" data-photo>
+              <svg class="photo__art" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                <rect width="400" height="500" fill="#2a46d4"/>
+                <polygon points="0,0 160,0 400,330 400,500" fill="#fff" opacity=".07"/>
+                <path d="M110,500 V250 C88,228 80,200 80,172 A120,104 0 0 1 320,172 C320,200 312,228 290,250 V500 Z" fill="#f2c230"/>
+                <path d="M134,500 V258 C116,240 110,214 110,190 A90,80 0 0 1 290,190 C290,214 284,240 266,258 V500 Z" fill="#14307f"/>
+                <g stroke="#f2c230" stroke-width="5"><path d="M200,120 V500"/><path d="M134,300 H266 M134,380 H266"/></g>
+                <rect y="440" width="400" height="60" fill="url(#zellige-fill)"/>
+                <rect y="436" width="400" height="6" fill="#f2c230"/>
+                <path d="M30,500 L42,400 H108 L120,500 Z" fill="#c4552d"/><rect x="36" y="392" width="78" height="12" rx="3" fill="#a8401f"/>
+                <g fill="#2f8a52"><rect x="66" y="250" width="20" height="148" rx="10"/><rect x="40" y="300" width="16" height="70" rx="8"/><rect x="96" y="280" width="16" height="64" rx="8"/><rect x="46" y="350" width="34" height="14" rx="7"/><rect x="80" y="330" width="26" height="14" rx="7"/></g>
+                <g stroke="#3fa86a" stroke-width="7" stroke-linecap="round"><path d="M352,500 V150"/><path d="M372,500 V210"/><path d="M336,500 V240"/></g>
+                <g fill="#3fa86a"><path d="M352,180 q-30,-6 -44,-26 q30,4 44,22z"/><path d="M372,240 q30,-6 26,-30 q-20,14 -26,28z"/><path d="M336,270 q-26,0 -36,-22 q24,4 36,20z"/></g>
+              </svg>
+              <img src="images/majorelle.jpg" alt="Les bâtiments bleu Majorelle et les cactus du jardin Majorelle" loading="lazy" decoding="async">
+            </div>
+          </div>
+          <span class="badge badge--blue">Bleu Majorelle</span>
+          <h3>Le jardin Majorelle</h3>
+          <p>Un jardin bleu, unique au monde.</p>
+          <button type="button" class="place__open" aria-expanded="false">Découvrir <span aria-hidden="true">+</span></button>
+        </div>
+        <div class="place__panel place__panel--blue" inert>
+          <h3>Le jardin Majorelle</h3>
+          <p>Le peintre français Jacques Majorelle a créé ce jardin. Ses bâtiments sont peints d’un bleu très intense&nbsp;: le <strong>«&nbsp;bleu Majorelle&nbsp;»</strong>.</p>
+          <p>En 1980, le créateur de mode <strong>Yves Saint Laurent</strong> et Pierre Bergé ont acheté le jardin et l’ont <strong>restauré</strong>.</p>
+          <ul class="chips"><li>Cactus</li><li>Bambous</li><li>Bâtiments bleus</li></ul>
+          <button type="button" class="place__close">Fermer <span aria-hidden="true">×</span></button>
+        </div>
+      </article>
+
+      <!-- Souks -->
+      <article class="place" data-reveal style="--i:2">
+        <div class="place__front">
+          <div class="frame">
+            <div class="photo" data-photo>
+              <svg class="photo__art" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                <defs><radialGradient id="s-light" cx="50%" cy="48%" r="45%"><stop offset="0" stop-color="#ffd27a"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient></defs>
+                <rect width="400" height="500" fill="#4a1714"/>
+                <circle cx="200" cy="240" r="200" fill="url(#s-light)" opacity=".7"/>
+                <g fill="none" stroke="#c97a3a" stroke-width="10">
+                  <path d="M20,500 V230 C4,210 0,186 0,160 A200,170 0 0 1 400,160 C400,186 396,210 380,230 V500" opacity=".9"/>
+                  <path d="M80,500 V250 C68,236 64,218 64,200 A136,118 0 0 1 336,200 C336,218 332,236 320,250 V500" opacity=".75"/>
+                  <path d="M130,500 V268 C122,258 120,246 120,234 A80,72 0 0 1 280,234 C280,246 278,258 270,268 V500" opacity=".6"/>
+                  <path d="M168,460 V284 C164,278 162,272 162,264 A38,36 0 0 1 238,264 C238,272 236,278 232,284 V460" opacity=".45"/>
+                </g>
+                <g><rect x="28" y="230" width="22" height="160" fill="#c4552d"/><rect x="52" y="240" width="16" height="140" fill="#f2a516"/><rect x="332" y="236" width="20" height="150" fill="#2a46d4"/><rect x="354" y="228" width="22" height="170" fill="#0f7a5c"/><rect x="92" y="262" width="12" height="100" fill="#b03a5b"/><rect x="296" y="262" width="12" height="100" fill="#f7ead4"/></g>
+                <g><svg x="90" y="40" width="40" height="90" viewBox="0 0 40 90"><use href="#lantern"/></svg><svg x="270" y="40" width="40" height="90" viewBox="0 0 40 90"><use href="#lantern"/></svg><svg x="182" y="90" width="36" height="80" viewBox="0 0 40 90"><use href="#lantern"/></svg></g>
+                <g><ellipse cx="80" cy="470" rx="54" ry="16" fill="#7a4a1c"/><path d="M36,468 L80,404 L124,468 Z" fill="#f2a516"/>
+                <ellipse cx="200" cy="480" rx="54" ry="16" fill="#7a4a1c"/><path d="M156,478 L200,410 L244,478 Z" fill="#c4352d"/>
+                <ellipse cx="320" cy="470" rx="54" ry="16" fill="#7a4a1c"/><path d="M276,468 L320,402 L364,468 Z" fill="#6a8a2a"/></g>
+              </svg>
+              <img src="images/souks.jpg" alt="Une ruelle des souks de Marrakech avec des lanternes et des épices" loading="lazy" decoding="async">
+            </div>
+          </div>
+          <span class="badge badge--gold">Shopping</span>
+          <h3>Les souks</h3>
+          <p>Beaucoup de couleurs et de parfums.</p>
+          <button type="button" class="place__open" aria-expanded="false">Découvrir <span aria-hidden="true">+</span></button>
+        </div>
+        <div class="place__panel place__panel--gold" inert>
+          <h3>Les souks</h3>
+          <p>Derrière la place Jemaa el-Fna, des centaines de petites boutiques vendent des épices, des lanternes, des tapis, du cuir et des babouches.</p>
+          <p>Ici, on <strong>négocie le prix</strong>&nbsp;: c’est une tradition&nbsp;!</p>
+          <ul class="chips"><li>Épices</li><li>Lanternes</li><li>Cuir</li></ul>
+          <button type="button" class="place__close">Fermer <span aria-hidden="true">×</span></button>
+        </div>
+      </article>
+
+      <!-- Palais Bahia -->
+      <article class="place" data-reveal style="--i:3">
+        <div class="place__front">
+          <div class="frame">
+            <div class="photo" data-photo>
+              <svg class="photo__art" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                <rect width="400" height="500" fill="#f3e2c4"/>
+                <rect width="400" height="70" fill="#6b3a1e"/>
+                <g fill="#9a5a2a"><rect y="70" width="400" height="10"/></g>
+                <g fill="#c98a3a" opacity=".8"><use href="#star8" transform="translate(50 35) scale(.7)"/><use href="#star8" transform="translate(150 35) scale(.7)"/><use href="#star8" transform="translate(250 35) scale(.7)"/><use href="#star8" transform="translate(350 35) scale(.7)"/></g>
+                <path d="M70,420 V230 C52,208 44,182 44,156 A156,124 0 0 1 356,156 C356,182 348,208 330,230 V420 Z" fill="#e8cfa4"/>
+                <g fill="none" stroke="#c9a46c" stroke-width="3"><path d="M90,420 V236 C74,216 68,192 68,170 A132,104 0 0 1 332,170 C332,192 326,216 310,236 V420"/><path d="M96,190 q13,-20 26,0 q13,-20 26,0 q13,-20 26,0 q13,-20 26,0 q13,-20 26,0 q13,-20 26,0 q13,-20 26,0 q13,-20 26,0"/></g>
+                <path d="M110,420 V246 C96,228 92,208 92,190 A108,86 0 0 1 308,190 C308,208 304,228 290,246 V420 Z" fill="#2e7a5e"/>
+                <path d="M110,420 V246 C96,228 92,208 92,190 A108,86 0 0 1 308,190 C308,208 304,228 290,246 V420 Z" fill="#fff" opacity=".08"/>
+                <g fill="#1e5a44"><circle cx="160" cy="320" r="30"/><circle cx="240" cy="310" r="36"/><circle cx="200" cy="290" r="28"/></g>
+                <g fill="#f2a516"><circle cx="150" cy="316" r="4"/><circle cx="246" cy="298" r="4"/><circle cx="226" cy="324" r="4"/><circle cx="196" cy="282" r="4"/></g>
+                <rect y="400" width="400" height="100" fill="url(#zellige-green)"/>
+                <rect y="396" width="400" height="6" fill="#c98a3a"/>
+                <ellipse cx="200" cy="470" rx="110" ry="22" fill="#d9c49a"/>
+                <ellipse cx="200" cy="466" rx="92" ry="15" fill="#5aa7d6"/>
+                <path d="M200,466 V430" stroke="#9fd2f0" stroke-width="4"/><path d="M200,432 q-16,4 -22,22 M200,432 q16,4 22,22" stroke="#9fd2f0" stroke-width="2.5" fill="none"/>
+              </svg>
+              <img src="images/bahia.jpg" alt="La cour du palais Bahia avec ses mosaïques et ses arcs" loading="lazy" decoding="async">
+            </div>
+          </div>
+          <span class="badge badge--green">XIX<sup>e</sup> siècle</span>
+          <h3>Le palais Bahia</h3>
+          <p>«&nbsp;La belle&nbsp;»&nbsp;: un palais de rêve.</p>
+          <button type="button" class="place__open" aria-expanded="false">Découvrir <span aria-hidden="true">+</span></button>
+        </div>
+        <div class="place__panel place__panel--green" inert>
+          <h3>Le palais Bahia</h3>
+          <p>Construit à la fin du XIX<sup>e</sup>&nbsp;siècle pour un grand vizir, le palais Bahia a des jardins, des cours et des plafonds en bois de cèdre peint.</p>
+          <p>Les murs sont couverts de <strong>zellige</strong> (mosaïque) et de stuc sculpté.</p>
+          <ul class="chips"><li>Zellige</li><li>Cèdre</li><li>Jardins</li></ul>
+          <button type="button" class="place__close">Fermer <span aria-hidden="true">×</span></button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"></div>
+
+<!-- =========================================================
+     4. UNE CULTURE VARIÉE
+     ========================================================= -->
+<section id="culture" class="section section--sand section--zellige" data-slide="Une culture variée" aria-labelledby="culture-title">
+  <div class="container">
+    <header class="section__head" data-reveal>
+      <p class="kicker"><span>03</span> Une culture variée</p>
+      <h2 id="culture-title">Un pays, <em>plusieurs cultures</em></h2>
+    </header>
+
+    <div class="peoples">
+      <article class="people people--arab" data-reveal style="--i:0">
+        <span class="people__glyph" lang="ar" aria-hidden="true">ع</span>
+        <h3>Les Arabes</h3>
+        <p>La culture arabe est arrivée au Maroc il y a plus de 1&nbsp;300 ans, avec l’islam. Elle a apporté la langue arabe, l’architecture et la calligraphie.</p>
+      </article>
+      <div class="peoples__and" aria-hidden="true">&amp;</div>
+      <article class="people people--amazigh" data-reveal style="--i:1">
+        <span class="people__glyph tfng" lang="zgh" aria-hidden="true">ⵣ</span>
+        <h3>Les Amazighs <small>(les Berbères)</small></h3>
+        <p>Ce sont les premiers habitants de l’Afrique du Nord. Leur symbole est la lettre <span class="tfng" lang="zgh">ⵣ</span> (yaz), qui représente «&nbsp;l’homme libre&nbsp;».</p>
+      </article>
+    </div>
+    <p class="peoples__note" data-reveal>Aujourd’hui, beaucoup de Marocains ont des racines arabes <em>et</em> amazighes&nbsp;: les deux cultures sont combinées.</p>
+
+    <h3 class="sub-title" data-reveal>Comment dit-on «&nbsp;<span class="hello-rotator" id="hello-rotator" aria-live="off">bonjour</span>&nbsp;»&nbsp;?</h3>
+    <div class="langs">
+      <article class="lang" data-reveal style="--i:0">
+        <p class="lang__word">Salam</p>
+        <p class="lang__script" lang="ar" dir="rtl">سلام</p>
+        <h4>La darija</h4>
+        <p>C’est l’arabe marocain. On la parle dans la rue, en famille et avec les amis.</p>
+      </article>
+      <article class="lang lang--amazigh" data-reveal style="--i:1">
+        <p class="lang__word">Azul</p>
+        <p class="lang__script tfng" lang="zgh">ⴰⵣⵓⵍ</p>
+        <h4>L’amazigh</h4>
+        <p>Il s’écrit avec l’alphabet <strong>tifinagh</strong>. On le parle beaucoup dans le Rif, l’Atlas et le Souss.</p>
+      </article>
+      <article class="lang lang--fr" data-reveal style="--i:2">
+        <p class="lang__word">Bonjour</p>
+        <p class="lang__script">Ça va&nbsp;?</p>
+        <h4>Le français</h4>
+        <p>Il est très utilisé à l’école, dans les affaires et dans les médias.</p>
+      </article>
+    </div>
+
+    <aside class="note" data-reveal>
+      <svg viewBox="-50 -50 100 100" aria-hidden="true"><use href="#rosette"/></svg>
+      <p><strong>À savoir&nbsp;:</strong> les langues officielles du Maroc sont <strong>l’arabe</strong> et <strong>l’amazigh</strong> (depuis la Constitution de 2011). Le français est très utilisé, mais <strong>ce n’est pas une langue officielle</strong>.</p>
+    </aside>
+
+    <h3 class="sub-title" data-reveal>Les grandes fêtes</h3>
+    <div class="fetes">
+      <article class="fete" data-reveal style="--i:0">
+        <div class="fete__icon" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M62 14 A38 38 0 1 0 86 70 A30 30 0 1 1 62 14 Z" fill="#f2a516"/><use href="#star8" transform="translate(70 36) scale(.22)" fill="#f7ead4"/></svg></div>
+        <p class="fete__when">Le mois sacré · la date change chaque année</p>
+        <h4>Le Ramadan</h4>
+        <p>Pendant un mois, les musulmans ne mangent pas et ne boivent pas pendant la journée. Le soir, on partage le <strong>ftour</strong> en famille, avec de la harira (une soupe), des dattes et des chebakia.</p>
+      </article>
+      <article class="fete" data-reveal style="--i:1">
+        <div class="fete__icon" aria-hidden="true"><svg viewBox="0 0 40 90"><use href="#lantern"/></svg></div>
+        <p class="fete__when">À la fin du Ramadan</p>
+        <h4>L’Aïd al-Fitr</h4>
+        <p>C’est la grande fête après le Ramadan. On met de beaux vêtements, on rend visite à la famille et on mange des pâtisseries.</p>
+      </article>
+      <article class="fete" data-reveal style="--i:2">
+        <div class="fete__icon fete__icon--tfng" aria-hidden="true"><span class="tfng">ⵣ</span></div>
+        <p class="fete__when">En janvier · le 14 janvier</p>
+        <h4>Yennayer</h4>
+        <p>C’est le <strong>Nouvel An amazigh</strong>. Depuis 2024, c’est un jour férié au Maroc. Le calendrier amazigh a 950 ans d’avance&nbsp;: janvier 2027 = l’an 2977&nbsp;!</p>
+      </article>
+    </div>
+    <p class="fetes__tip" data-reveal>Le calendrier musulman suit la lune&nbsp;: c’est pourquoi les dates du Ramadan et de l’Aïd changent chaque année.</p>
+  </div>
+</section>
+
+<!-- =========================================================
+     5. À TABLE !
+     ========================================================= -->
+<section id="cuisine" class="section section--spice" data-slide="À table !" aria-labelledby="cuisine-title">
+  <div class="container">
+    <header class="section__head" data-reveal>
+      <p class="kicker kicker--light"><span>04</span> À table&nbsp;!</p>
+      <h2 id="cuisine-title">Bienvenue <em>à table</em></h2>
+      <p class="section__lead">Clique sur les cartes pour les retourner et découvrir les plats préférés des Marocains.</p>
+    </header>
+
+    <div class="dishes">
+      <!-- Couscous -->
+      <article class="flip" data-reveal style="--i:0">
+        <div class="flip__inner">
+          <div class="flip__face flip__face--front">
+            <div class="dish-art photo" data-photo>
+              <svg class="photo__art" viewBox="0 0 300 240" aria-hidden="true">
+                <g class="steam" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".55"><path d="M120,70 q-10,-15 0,-30 q10,-15 0,-30"/><path d="M150,60 q-10,-15 0,-30 q10,-15 0,-30"/><path d="M180,70 q-10,-15 0,-30 q10,-15 0,-30"/></g>
+                <ellipse cx="150" cy="190" rx="135" ry="40" fill="#8e3418"/>
+                <ellipse cx="150" cy="182" rx="135" ry="40" fill="#c4552d"/>
+                <ellipse cx="150" cy="180" rx="118" ry="32" fill="none" stroke="#f2a516" stroke-width="3" stroke-dasharray="6 6"/>
+                <path d="M50,178 C60,110 110,82 150,82 C190,82 240,110 250,178 Z" fill="#f2c25a"/>
+                <g fill="#e8a83a" opacity=".6"><circle cx="90" cy="150" r="2"/><circle cx="120" cy="120" r="2"/><circle cx="190" cy="130" r="2"/><circle cx="210" cy="160" r="2"/><circle cx="150" cy="105" r="2"/><circle cx="105" cy="170" r="2"/></g>
+                <path d="M100,120 L150,96 L120,140 Z" fill="#f07a24"/><path d="M200,120 L150,96 L180,140 Z" fill="#f07a24"/>
+                <path d="M150,96 L140,146 L160,146 Z" fill="#ff8f2e"/>
+                <ellipse cx="150" cy="92" rx="26" ry="16" fill="#8a4a2a"/>
+                <rect x="84" y="140" width="40" height="16" rx="8" fill="#5a9a3a" transform="rotate(-25 104 148)"/>
+                <rect x="176" y="140" width="40" height="16" rx="8" fill="#5a9a3a" transform="rotate(25 196 148)"/>
+                <g fill="#e9c27a"><circle cx="128" cy="160" r="6"/><circle cx="172" cy="162" r="6"/><circle cx="150" cy="168" r="6"/><circle cx="210" cy="172" r="5"/><circle cx="90" cy="172" r="5"/></g>
+              </svg>
+              <img src="images/couscous.jpg" alt="Un grand plat de couscous aux légumes" loading="lazy" decoding="async">
+            </div>
+            <h3>Le couscous</h3>
+            <p class="flip__hint">Le plat du vendredi</p>
+            <button type="button" class="flip__btn" aria-label="Retourner la carte du couscous">Retourne-moi <span aria-hidden="true">↻</span></button>
+          </div>
+          <div class="flip__face flip__face--back" inert>
+            <h3>Le couscous</h3>
+            <p>C’est le plat de la famille. <strong>Le vendredi</strong>, la famille se réunit pour manger le couscous ensemble, souvent après la prière.</p>
+            <ul class="chips chips--dark"><li>Semoule</li><li>Sept légumes</li><li>Viande</li></ul>
+            <p class="flip__fact">Depuis 2020, le couscous fait partie du patrimoine immatériel de l’UNESCO.</p>
+            <button type="button" class="flip__btn" aria-label="Revenir à l’image du couscous">Retour <span aria-hidden="true">↺</span></button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tajine -->
+      <article class="flip" data-reveal style="--i:1">
+        <div class="flip__inner">
+          <div class="flip__face flip__face--front">
+            <div class="dish-art photo" data-photo>
+              <svg class="photo__art" viewBox="0 0 300 240" aria-hidden="true">
+                <g class="steam" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".55"><path d="M196,64 q-10,-15 0,-30 q10,-15 0,-30"/><path d="M220,76 q-10,-15 0,-30 q10,-15 0,-30"/></g>
+                <ellipse cx="150" cy="200" rx="128" ry="30" fill="#7a2c14"/>
+                <ellipse cx="150" cy="192" rx="128" ry="30" fill="#b84a24"/>
+                <path d="M42,186 C40,176 60,170 150,170 C240,170 260,176 258,186 C250,196 200,200 150,200 C100,200 50,196 42,186 Z" fill="#9a3a1a"/>
+                <path d="M60,180 C88,150 118,90 140,52 L160,52 C182,90 212,150 240,180 C210,190 90,190 60,180 Z" fill="#c4552d"/>
+                <path d="M84,166 C120,172 180,172 216,166" stroke="#f2a516" stroke-width="5" fill="none"/>
+                <path d="M104,132 C130,137 170,137 196,132" stroke="#f7ead4" stroke-width="4" fill="none"/>
+                <g fill="#f2a516"><circle cx="120" cy="150" r="4"/><circle cx="150" cy="153" r="4"/><circle cx="180" cy="150" r="4"/></g>
+                <path d="M122,100 C140,103 160,103 178,100" stroke="#2a46d4" stroke-width="4" fill="none"/>
+                <circle cx="150" cy="44" r="13" fill="#9a3a1a"/><circle cx="146" cy="40" r="4" fill="#e07a4f"/>
+              </svg>
+              <img src="images/tajine.jpg" alt="Un tajine en terre cuite avec son couvercle en forme de cône" loading="lazy" decoding="async">
+            </div>
+            <h3>Le tajine</h3>
+            <p class="flip__hint">Le plat et le pot&nbsp;!</p>
+            <button type="button" class="flip__btn" aria-label="Retourner la carte du tajine">Retourne-moi <span aria-hidden="true">↻</span></button>
+          </div>
+          <div class="flip__face flip__face--back" inert>
+            <h3>Le tajine</h3>
+            <p>Un plat cuit lentement dans un pot en terre avec un couvercle en forme de cône. Le mot <strong>«&nbsp;tajine&nbsp;»</strong> désigne le plat <em>et</em> le pot&nbsp;!</p>
+            <ul class="chips chips--dark"><li>Poulet</li><li>Citron confit</li><li>Olives</li><li>Épices</li></ul>
+            <p class="flip__fact">Le couvercle garde la vapeur&nbsp;: la viande devient très tendre.</p>
+            <button type="button" class="flip__btn" aria-label="Revenir à l’image du tajine">Retour <span aria-hidden="true">↺</span></button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Pastilla -->
+      <article class="flip" data-reveal style="--i:2">
+        <div class="flip__inner">
+          <div class="flip__face flip__face--front">
+            <div class="dish-art photo" data-photo>
+              <svg class="photo__art" viewBox="0 0 300 240" aria-hidden="true">
+                <defs><clipPath id="pastilla-top"><ellipse cx="150" cy="140" rx="112" ry="46"/></clipPath></defs>
+                <ellipse cx="150" cy="190" rx="138" ry="34" fill="#e8dcc6"/>
+                <ellipse cx="150" cy="186" rx="138" ry="34" fill="#f7f0e2"/>
+                <ellipse cx="150" cy="182" rx="120" ry="26" fill="none" stroke="#2a46d4" stroke-width="3"/>
+                <path d="M38,140 V162 C38,186 262,186 262,162 V140 Z" fill="#c97b2a"/>
+                <ellipse cx="150" cy="140" rx="112" ry="46" fill="#e8a64a"/>
+                <ellipse cx="150" cy="140" rx="112" ry="46" fill="#fff6e6" opacity=".75"/>
+                <g clip-path="url(#pastilla-top)" stroke="#8a4a1c" stroke-width="5" opacity=".8">
+                  <path d="M20,60 L180,220 M60,60 L220,220 M100,60 L260,220 M140,60 L300,220 M-20,60 L140,220"/>
+                  <path d="M280,60 L120,220 M240,60 L80,220 M200,60 L40,220 M160,60 L0,220 M320,60 L160,220"/>
+                </g>
+                <g fill="#c98a3a"><circle cx="150" cy="140" r="10"/></g>
+                <g fill="#f7ead4"><ellipse cx="150" cy="140" rx="4" ry="3"/></g>
+              </svg>
+              <img src="images/pastilla.jpg" alt="Une pastilla dorée décorée de sucre glace et de cannelle" loading="lazy" decoding="async">
+            </div>
+            <h3>La pastilla</h3>
+            <p class="flip__hint">Sucrée et salée</p>
+            <button type="button" class="flip__btn" aria-label="Retourner la carte de la pastilla">Retourne-moi <span aria-hidden="true">↻</span></button>
+          </div>
+          <div class="flip__face flip__face--back" inert>
+            <h3>La pastilla</h3>
+            <p>Une tourte croustillante, <strong>sucrée et salée</strong> en même temps&nbsp;! On la sert pour les fêtes et les mariages.</p>
+            <ul class="chips chips--dark"><li>Pâte fine</li><li>Poulet</li><li>Amandes</li><li>Cannelle</li></ul>
+            <p class="flip__fact">Sur le dessus&nbsp;: du sucre glace et de la cannelle en motif.</p>
+            <button type="button" class="flip__btn" aria-label="Revenir à l’image de la pastilla">Retour <span aria-hidden="true">↺</span></button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <p class="tea" data-reveal>
+      <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 30 h30 l-4 22 h-22 z" fill="#f2a516"/><path d="M44 34 q12 0 10 10 q-2 6 -12 6" fill="none" stroke="#f2a516" stroke-width="4"/><path d="M22 24 q-4 -6 0 -12 M30 24 q-4 -6 0 -12 M38 24 q-4 -6 0 -12" stroke="#f7ead4" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M26 40 q4 -6 8 0 q-4 6 -8 0z" fill="#2f8a52"/></svg>
+      <span><strong>Et pour finir… un thé à la menthe&nbsp;!</strong> On le verse de très haut pour faire de la mousse.</span>
+    </p>
+  </div>
+</section>
+
+<!-- =========================================================
+     6. LE FOOTBALL
+     ========================================================= -->
+<section id="football" class="section section--foot" data-slide="Le football" aria-labelledby="foot-title">
+  <div class="foot__beams" aria-hidden="true"><span></span><span></span><span></span></div>
+  <svg class="foot__star" viewBox="-110 -110 220 220" aria-hidden="true"><path d="M0,-100 L58.8,80.9 L-95.1,-30.9 L95.1,-30.9 L-58.8,80.9 Z" fill="none" stroke="currentColor" stroke-width="9" stroke-linejoin="miter"/></svg>
+  <div class="container">
+    <header class="section__head foot__head" data-reveal>
+      <p class="kicker kicker--light"><span>05</span> Le football</p>
+      <h2 id="foot-title" class="foot__title"><span>Les Lions</span> <span>de l’Atlas</span></h2>
+    </header>
+
+    <div class="foot__hero" data-reveal>
+      <p class="foot__year">Qatar 2022</p>
+      <p class="foot__big" aria-hidden="true">DEMI-FINALE</p>
+      <p class="foot__claim">Le Maroc est la <strong>première équipe africaine de l’histoire</strong> à jouer une demi-finale de Coupe du monde&nbsp;!</p>
+    </div>
+
+    <ol class="road" data-reveal aria-label="Le parcours du Maroc en 2022">
+      <li class="road__step" style="--i:0">
+        <span class="road__round">Groupe F</span>
+        <span class="road__score">1<sup>er</sup> du groupe</span>
+        <span class="road__extra">Victoire 2–1 contre… le Canada&nbsp;!</span>
+      </li>
+      <li class="road__step" style="--i:1">
+        <span class="road__round">Huitièmes</span>
+        <span class="road__score">Maroc 0–0 Espagne</span>
+        <span class="road__extra">Victoire aux tirs au but (3–0)</span>
+      </li>
+      <li class="road__step" style="--i:2">
+        <span class="road__round">Quarts</span>
+        <span class="road__score">Maroc 1–0 Portugal</span>
+        <span class="road__extra">Une qualification historique</span>
+      </li>
+      <li class="road__step road__step--final" style="--i:3">
+        <span class="road__round">Demi-finale</span>
+        <span class="road__score">France 2–0 Maroc</span>
+        <span class="road__extra">Dans le top 4 mondial&nbsp;!</span>
+      </li>
+    </ol>
+
+    <div class="foot__cta" data-reveal>
+      <button type="button" class="btn btn--red" id="celebrate">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7l4 3-1.5 4.5h-5L8 10z" fill="currentColor"/></svg>
+        Célèbre avec les Lions&nbsp;!
+      </button>
+      <p class="foot__link">Et en 2030, la Coupe du monde arrive au Maroc… avec l’Espagne et le Portugal, deux adversaires battus en 2022&nbsp;!</p>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Dima Maghrib</span><i>★</i><span>Toujours le Maroc</span><i>★</i><span>Dima Maghrib</span><i>★</i><span>Les Lions de l’Atlas</span><i>★</i><span>Dima Maghrib</span><i>★</i><span>Toujours le Maroc</span><i>★</i><span>Dima Maghrib</span><i>★</i><span>Les Lions de l’Atlas</span><i>★</i>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     7. PRÉPARE TON VOYAGE
+     ========================================================= -->
+<section id="voyage" class="section section--night" data-slide="Prépare ton voyage" aria-labelledby="voyage-title">
+  <div class="container">
+    <header class="section__head" data-reveal>
+      <p class="kicker kicker--light"><span>06</span> Prépare ton voyage</p>
+      <h2 id="voyage-title">De Vancouver <em>à Marrakech</em></h2>
+    </header>
+
+    <div class="trip">
+      <div class="trip__map" data-reveal>
+        <svg class="map" id="map" viewBox="0 0 1000 440" role="img" aria-label="Carte de l’itinéraire : départ de Vancouver, escale à Paris, arrivée à Marrakech">
+          <defs>
+            <linearGradient id="route-grad" x1="0" x2="1"><stop offset="0" stop-color="#f2a516"/><stop offset="1" stop-color="#ff7a59"/></linearGradient>
+          </defs>
+          <g id="map-dots" class="map__dots"></g>
+          <path id="route-1" class="map__route" d="M204,179 Q470,-10 750,181"/>
+          <path id="route-2" class="map__route" d="M750,181 Q800,250 705,288"/>
+          <g class="map__pin" transform="translate(204 179)"><circle r="16" class="pulse"/><circle r="7"/><text x="-14" y="34" text-anchor="middle">Vancouver · YVR</text></g>
+          <g class="map__pin map__pin--stop" transform="translate(750 181)"><circle r="16" class="pulse"/><circle r="7"/><text x="10" y="-22" text-anchor="middle">Paris · escale</text></g>
+          <g class="map__pin map__pin--end" transform="translate(705 288)"><circle r="16" class="pulse"/><circle r="7"/><text x="0" y="40" text-anchor="middle">Marrakech · RAK</text></g>
+          <g id="plane" class="map__plane"><path d="M16,0 L-5,-3.5 L-12,-14 L-16,-14 L-11,-3 L-18,-2.4 L-21,-7 L-24,-7 L-22,0 L-24,7 L-21,7 L-18,2.4 L-11,3 L-16,14 L-12,14 L-5,3.5 Z"/></g>
+        </svg>
+        <button type="button" class="btn btn--small" id="replay-flight">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          Lancer le vol
+        </button>
+      </div>
+
+      <div class="trip__info">
+        <ol class="steps">
+          <li class="step" data-step="1" data-reveal style="--i:0">
+            <span class="step__num">1</span>
+            <div><h3>Départ&nbsp;: Vancouver (YVR)</h3><p>On part de l’aéroport international de Vancouver.</p></div>
+          </li>
+          <li class="step" data-step="2" data-reveal style="--i:1">
+            <span class="step__num">2</span>
+            <div><h3>Escale à Paris</h3><p>On fait une escale à Paris avec <strong>Air France</strong>, puis on prend un deuxième avion.</p></div>
+          </li>
+          <li class="step" data-step="3" data-reveal style="--i:2">
+            <span class="step__num">3</span>
+            <div><h3>Arrivée&nbsp;: Marrakech (RAK)</h3><p>Bienvenue à Marrakech&nbsp;! <span lang="ary">Marhaba&nbsp;!</span></p></div>
+          </li>
+        </ol>
+        <p class="warning" data-reveal>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v6M12 16.5v.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          <span><strong>Attention&nbsp;:</strong> il n’y a pas de vol direct entre Vancouver et Marrakech. Il faut faire une escale. Vérifie les horaires et les prix sur le site de la compagnie aérienne.</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="stay">
+      <div class="stay__art" data-reveal>
+        <div class="frame frame--wide">
+          <div class="photo" data-photo>
+            <svg class="photo__art" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <rect width="400" height="500" fill="#f1dcb8"/>
+              <rect width="400" height="60" fill="#6fa8e8"/>
+              <rect y="56" width="400" height="10" fill="#6b3a1e"/>
+              <g fill="#e2c08e"><path d="M20,190 V120 a40,40 0 0 1 80,0 V190 Z"/><path d="M120,190 V120 a40,40 0 0 1 80,0 V190 Z"/><path d="M200,190 V120 a40,40 0 0 1 80,0 V190 Z"/><path d="M300,190 V120 a40,40 0 0 1 80,0 V190 Z"/></g>
+              <g fill="#7a3a1e"><path d="M30,190 V124 a30,30 0 0 1 60,0 V190 Z"/><path d="M130,190 V124 a30,30 0 0 1 60,0 V190 Z"/><path d="M210,190 V124 a30,30 0 0 1 60,0 V190 Z"/><path d="M310,190 V124 a30,30 0 0 1 60,0 V190 Z"/></g>
+              <rect y="190" width="400" height="12" fill="#6b3a1e"/>
+              <g fill="#f2a516" opacity=".9"><rect x="0" y="202" width="400" height="4"/></g>
+              <g fill="#e2c08e"><path d="M10,380 V280 C2,268 0,256 0,244 A50,44 0 0 1 100,244 C100,256 98,268 90,280 V380 Z"/><path d="M150,380 V280 C142,268 140,256 140,244 A60,50 0 0 1 260,244 C260,256 258,268 250,280 V380 Z"/><path d="M310,380 V280 C302,268 300,256 300,244 A50,44 0 0 1 400,244 C400,256 398,268 390,280 V380 Z"/></g>
+              <g fill="#3c1e14"><path d="M22,380 V284 C16,274 14,264 14,254 A36,32 0 0 1 86,254 C86,264 84,274 78,284 V380 Z"/><path d="M164,380 V284 C158,274 156,264 156,254 A44,38 0 0 1 244,254 C244,264 242,274 236,284 V380 Z"/><path d="M322,380 V284 C316,274 314,264 314,254 A36,32 0 0 1 386,254 C386,264 384,274 378,284 V380 Z"/></g>
+              <g><svg x="182" y="250" width="36" height="80" viewBox="0 0 40 90"><use href="#lantern"/></svg></g>
+              <rect y="380" width="400" height="120" fill="url(#zellige-fill)"/>
+              <ellipse cx="200" cy="440" rx="96" ry="24" fill="#f7ead4"/>
+              <ellipse cx="200" cy="436" rx="80" ry="17" fill="#3c8fd6"/>
+              <g fill="#e2463a"><circle cx="180" cy="434" r="4"/><circle cx="214" cy="440" r="4"/><circle cx="200" cy="430" r="3"/><circle cx="226" cy="432" r="3"/></g>
+              <g><rect x="40" y="400" width="44" height="40" rx="4" fill="#c4552d"/><circle cx="62" cy="380" r="30" fill="#2f8a52"/><circle cx="54" cy="372" r="4" fill="#f2a516"/><circle cx="72" cy="386" r="4" fill="#f2a516"/>
+              <rect x="316" y="400" width="44" height="40" rx="4" fill="#c4552d"/><circle cx="338" cy="380" r="30" fill="#2f8a52"/><circle cx="330" cy="388" r="4" fill="#f2a516"/><circle cx="346" cy="372" r="4" fill="#f2a516"/></g>
+            </svg>
+            <img src="images/riad.jpg" alt="Le patio d’un riad avec une fontaine au milieu" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+      <div class="stay__text" data-reveal>
+        <p class="kicker kicker--light">Où dormir&nbsp;?</p>
+        <h3>Dans un riad, au cœur de la médina</h3>
+        <p>Un <strong>riad</strong> est une maison traditionnelle avec un <strong>patio</strong> (une cour intérieure). Au milieu, il y a souvent une fontaine ou un petit jardin. De l’extérieur, c’est simple&nbsp;; à l’intérieur, c’est magnifique&nbsp;!</p>
+
+        <h3 class="move__title">Se déplacer</h3>
+        <ul class="move">
+          <li class="move__item">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40 l5 -14 q2 -5 7 -5 h20 q5 0 7 5 l5 14 v10 h-44z" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"/><circle cx="20" cy="50" r="5" fill="currentColor"/><circle cx="44" cy="50" r="5" fill="currentColor"/><rect x="26" y="14" width="12" height="6" rx="2" fill="currentColor"/><path d="M14 38 h36" stroke="currentColor" stroke-width="3"/></svg>
+            <div><h4>En ville&nbsp;: le petit taxi</h4><p>Pratique pour aller d’un quartier à l’autre.</p></div>
+          </li>
+          <li class="move__item">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="8" width="36" height="40" rx="8" fill="none" stroke="currentColor" stroke-width="3.5"/><path d="M14 30 h36" stroke="currentColor" stroke-width="3"/><circle cx="23" cy="39" r="3.5" fill="currentColor"/><circle cx="41" cy="39" r="3.5" fill="currentColor"/><path d="M20 48 l-6 10 M44 48 l6 10 M17 54 h30" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/><rect x="21" y="14" width="22" height="10" rx="2" fill="currentColor" opacity=".5"/></svg>
+            <div><h4>Entre les villes&nbsp;: le train</h4><p>Le train va de Marrakech à Casablanca, Rabat, Fès et Tanger.</p></div>
+          </li>
+          <li class="move__item">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="8" y="12" width="48" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="3.5"/><path d="M8 32 h48" stroke="currentColor" stroke-width="3"/><rect x="14" y="18" width="14" height="10" rx="2" fill="currentColor" opacity=".5"/><rect x="36" y="18" width="14" height="10" rx="2" fill="currentColor" opacity=".5"/><circle cx="18" cy="50" r="5" fill="currentColor"/><circle cx="46" cy="50" r="5" fill="currentColor"/></svg>
+            <div><h4>Les petites villes&nbsp;: le bus</h4><p>Le bus va dans les petites villes et les villages, là où le train ne va pas.</p></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="map-cta" data-reveal>
+      <p>Où sont Marrakech, Rabat et Tanger&nbsp;?</p>
+      <a class="btn btn--gold" href="map.html">Voir la carte du Maroc
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"></div>
+
+<!-- =========================================================
+     8. OBJETS ET ART
+     ========================================================= -->
+<section id="art" class="section section--sand" data-slide="Objets et art" aria-labelledby="art-title">
+  <div class="container">
+    <header class="section__head" data-reveal>
+      <p class="kicker"><span>07</span> Objets et art</p>
+      <h2 id="art-title">L’art de vivre <em>marocain</em></h2>
+    </header>
+
+    <div class="gallery">
+      <article class="item" data-reveal style="--i:0">
+        <div class="frame">
+          <div class="photo" data-photo>
+            <svg class="photo__art" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs><clipPath id="rug"><rect x="70" y="70" width="260" height="360" rx="4"/></clipPath></defs>
+              <rect width="400" height="500" fill="#c4552d"/>
+              <rect x="74" y="78" width="260" height="360" fill="#000" opacity=".2"/>
+              <rect x="70" y="70" width="260" height="360" rx="4" fill="#f4ead8"/>
+              <g clip-path="url(#rug)" fill="none" stroke="#2a1a12" stroke-width="5">
+                <path d="M70,130 L200,70 L330,130 L200,190 Z M70,250 L200,190 L330,250 L200,310 Z M70,370 L200,310 L330,370 L200,430 Z"/>
+                <path d="M200,110 L245,130 L200,150 L155,130 Z M200,230 L245,250 L200,270 L155,250 Z M200,350 L245,370 L200,390 L155,370 Z" stroke-width="3"/>
+              </g>
+              <g fill="#c4552d"><use href="#star8" transform="translate(200 130) scale(.18)"/><use href="#star8" transform="translate(200 250) scale(.18)"/><use href="#star8" transform="translate(200 370) scale(.18)"/></g>
+              <g stroke="#f4ead8" stroke-width="3"><path d="M78,70 v-18 M90,70 v-18 M102,70 v-18 M114,70 v-18 M126,70 v-18 M138,70 v-18 M150,70 v-18 M162,70 v-18 M174,70 v-18 M186,70 v-18 M198,70 v-18 M210,70 v-18 M222,70 v-18 M234,70 v-18 M246,70 v-18 M258,70 v-18 M270,70 v-18 M282,70 v-18 M294,70 v-18 M306,70 v-18 M318,70 v-18"/><path d="M78,430 v18 M90,430 v18 M102,430 v18 M114,430 v18 M126,430 v18 M138,430 v18 M150,430 v18 M162,430 v18 M174,430 v18 M186,430 v18 M198,430 v18 M210,430 v18 M222,430 v18 M234,430 v18 M246,430 v18 M258,430 v18 M270,430 v18 M282,430 v18 M294,430 v18 M306,430 v18 M318,430 v18"/></g>
+            </svg>
+            <img src="images/tapis.jpg" alt="Un tapis berbère en laine avec des motifs géométriques" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <p class="item__tag">Artisanat</p>
+        <h3>Les tapis berbères</h3>
+        <p>Tissés à la main, souvent par des femmes amazighes, avec de la laine. Chaque symbole raconte une histoire.</p>
+      </article>
+
+      <article class="item" data-reveal style="--i:1">
+        <div class="frame">
+          <div class="photo" data-photo>
+            <svg class="photo__art" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <rect width="400" height="500" fill="#2a46d4"/>
+              <rect width="400" height="500" fill="url(#zellige-fill)" opacity=".25"/>
+              <g transform="translate(140 260) rotate(-12)">
+                <path d="M0,-130 C44,-130 58,-60 55,14 C52,86 32,130 0,130 C-32,130 -52,86 -55,14 C-58,-60 -44,-130 0,-130Z" fill="#000" opacity=".25" transform="translate(8 10)"/>
+                <path d="M0,-130 C44,-130 58,-60 55,14 C52,86 32,130 0,130 C-32,130 -52,86 -55,14 C-58,-60 -44,-130 0,-130Z" fill="#f2c230"/>
+                <path d="M0,-20 C32,-20 40,30 38,70 C36,110 22,120 0,120 C-22,120 -36,110 -38,70 C-40,30 -32,-20 0,-20Z" fill="#a8701f"/>
+                <path d="M-38,-14 C-20,-34 20,-34 38,-14" fill="none" stroke="#c98a1a" stroke-width="5"/>
+                <path d="M0,-110 V-40" stroke="#c98a1a" stroke-width="3" stroke-dasharray="6 5"/>
+              </g>
+              <g transform="translate(260 250) rotate(14)">
+                <path d="M0,-130 C44,-130 58,-60 55,14 C52,86 32,130 0,130 C-32,130 -52,86 -55,14 C-58,-60 -44,-130 0,-130Z" fill="#000" opacity=".25" transform="translate(8 10)"/>
+                <path d="M0,-130 C44,-130 58,-60 55,14 C52,86 32,130 0,130 C-32,130 -52,86 -55,14 C-58,-60 -44,-130 0,-130Z" fill="#f2c230"/>
+                <path d="M0,-20 C32,-20 40,30 38,70 C36,110 22,120 0,120 C-22,120 -36,110 -38,70 C-40,30 -32,-20 0,-20Z" fill="#a8701f"/>
+                <path d="M-38,-14 C-20,-34 20,-34 38,-14" fill="none" stroke="#c98a1a" stroke-width="5"/>
+                <path d="M0,-110 V-40" stroke="#c98a1a" stroke-width="3" stroke-dasharray="6 5"/>
+              </g>
+            </svg>
+            <img src="images/babouches.jpg" alt="Des babouches jaunes en cuir dans un souk" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <p class="item__tag">Artisanat</p>
+        <h3>Les babouches</h3>
+        <p>Des chaussons en cuir, sans talon. On les porte à la maison. Les jaunes sont les plus classiques&nbsp;!</p>
+      </article>
+
+      <article class="item" data-reveal style="--i:2">
+        <div class="frame">
+          <div class="photo" data-photo>
+            <svg class="photo__art" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs><radialGradient id="mic-bg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#4a2a8a"/><stop offset="1" stop-color="#140d33"/></radialGradient></defs>
+              <rect width="400" height="500" fill="url(#mic-bg)"/>
+              <g fill="none" stroke="#f2a516" stroke-width="3" class="waves"><circle cx="200" cy="200" r="70" opacity=".7"/><circle cx="200" cy="200" r="110" opacity=".45"/><circle cx="200" cy="200" r="150" opacity=".25"/></g>
+              <rect x="170" y="130" width="60" height="110" rx="30" fill="#e7b552"/>
+              <g stroke="#a8701f" stroke-width="3"><path d="M174,160 H226 M172,180 H228 M172,200 H228 M174,220 H226"/></g>
+              <path d="M150,210 a50,50 0 0 0 100,0" fill="none" stroke="#e7b552" stroke-width="7"/>
+              <path d="M200,260 V320 M170,320 H230" stroke="#e7b552" stroke-width="7" stroke-linecap="round"/>
+              <g class="eq" fill="#ff7a59"><rect x="110" y="390" width="16" height="70" rx="4"/><rect x="138" y="370" width="16" height="90" rx="4"/><rect x="166" y="400" width="16" height="60" rx="4"/><rect x="194" y="360" width="16" height="100" rx="4"/><rect x="222" y="384" width="16" height="76" rx="4"/><rect x="250" y="404" width="16" height="56" rx="4"/><rect x="278" y="376" width="16" height="84" rx="4"/></g>
+            </svg>
+            <img src="images/dystinct.jpg" alt="Le chanteur Dystinct en concert" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <p class="item__tag item__tag--blue">Musique</p>
+        <h3>Dystinct</h3>
+        <p>Chanteur belgo-marocain. Il mélange la darija, le français et l’anglais avec des sons modernes et marocains.</p>
+      </article>
+
+      <article class="item" data-reveal style="--i:3">
+        <div class="frame">
+          <div class="photo" data-photo>
+            <svg class="photo__art" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs><linearGradient id="spot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+              <rect width="400" height="500" fill="#151515"/>
+              <polygon points="170,0 230,0 360,500 40,500" fill="url(#spot)"/>
+              <g transform="rotate(-14 200 250)">
+                <rect x="-40" y="320" width="480" height="90" fill="#2b2b2b"/>
+                <g fill="#151515"><rect x="-30" y="328" width="18" height="12" rx="2"/><rect x="0" y="328" width="18" height="12" rx="2"/><rect x="30" y="328" width="18" height="12" rx="2"/><rect x="60" y="328" width="18" height="12" rx="2"/><rect x="90" y="328" width="18" height="12" rx="2"/><rect x="120" y="328" width="18" height="12" rx="2"/><rect x="150" y="328" width="18" height="12" rx="2"/><rect x="180" y="328" width="18" height="12" rx="2"/><rect x="210" y="328" width="18" height="12" rx="2"/><rect x="240" y="328" width="18" height="12" rx="2"/><rect x="270" y="328" width="18" height="12" rx="2"/><rect x="300" y="328" width="18" height="12" rx="2"/><rect x="330" y="328" width="18" height="12" rx="2"/><rect x="360" y="328" width="18" height="12" rx="2"/><rect x="390" y="328" width="18" height="12" rx="2"/>
+                <rect x="-30" y="390" width="18" height="12" rx="2"/><rect x="0" y="390" width="18" height="12" rx="2"/><rect x="30" y="390" width="18" height="12" rx="2"/><rect x="60" y="390" width="18" height="12" rx="2"/><rect x="90" y="390" width="18" height="12" rx="2"/><rect x="120" y="390" width="18" height="12" rx="2"/><rect x="150" y="390" width="18" height="12" rx="2"/><rect x="180" y="390" width="18" height="12" rx="2"/><rect x="210" y="390" width="18" height="12" rx="2"/><rect x="240" y="390" width="18" height="12" rx="2"/><rect x="270" y="390" width="18" height="12" rx="2"/><rect x="300" y="390" width="18" height="12" rx="2"/><rect x="330" y="390" width="18" height="12" rx="2"/><rect x="360" y="390" width="18" height="12" rx="2"/><rect x="390" y="390" width="18" height="12" rx="2"/></g>
+                <g fill="#5a5a5a"><rect x="20" y="346" width="70" height="38"/><rect x="110" y="346" width="70" height="38"/><rect x="200" y="346" width="70" height="38"/><rect x="290" y="346" width="70" height="38"/></g>
+              </g>
+              <g transform="translate(200 190)">
+                <rect x="-80" y="-10" width="160" height="90" rx="6" fill="#efefef"/>
+                <g transform="rotate(-16 -80 -10)"><rect x="-80" y="-34" width="160" height="24" rx="4" fill="#efefef"/><path d="M-60,-34 l-14,24 M-30,-34 l-14,24 M0,-34 l-14,24 M30,-34 l-14,24 M60,-34 l-14,24" stroke="#151515" stroke-width="10"/></g>
+                <path d="M-80,-10 h160 v14 h-160z" fill="#151515"/>
+                <path d="M-50,-10 l-14,14 M-20,-10 l-14,14 M10,-10 l-14,14 M40,-10 l-14,14 M70,-10 l-14,14" stroke="#efefef" stroke-width="8"/>
+                <text x="0" y="40" text-anchor="middle" class="clap-text">LA HAINE</text>
+                <text x="0" y="64" text-anchor="middle" class="clap-sub">1995</text>
+              </g>
+            </svg>
+            <img src="images/taghmaoui.jpg" alt="L’acteur Saïd Taghmaoui" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <p class="item__tag item__tag--blue">Cinéma</p>
+        <h3>Saïd Taghmaoui</h3>
+        <p>Acteur français d’origine marocaine. Il est célèbre pour son rôle de Saïd dans le film <cite>La Haine</cite> (1995). Il a aussi joué dans des films américains.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     9. À PROPOS DE MON PROJET
+     ========================================================= -->
+<section id="projet" class="section section--majorelle" data-slide="À propos de mon projet" aria-labelledby="projet-title">
+  <div class="container container--narrow">
+    <article class="letter" data-reveal>
+      <svg class="letter__seal" viewBox="-50 -50 100 100" aria-hidden="true"><use href="#rosette"/></svg>
+      <p class="kicker"><span>08</span> À propos de mon projet</p>
+      <h2 id="projet-title">Pourquoi <em>ce projet&nbsp;?</em></h2>
+      <!-- Texte de l’élève : ne pas corriger. -->
+      <p class="letter__dropcap">J’ai choisi de faire un site web parce que je voulais créer un vrai site touristique. Un site web est moderne, visuel et interactif : on peut cliquer, retourner des cartes et voyager comme un vrai touriste, c’est plus amusant qu’une affiche ou une présentation generique.</p>
+      <p>Pour mes recherches, j’ai choisi Marrakech parce que c’est la ville la plus célèbre du Maroc, avec ses souks, ses jardins et ses palais. J’ai choisi le football parce que le Maroc a fait l’histoire en 2022 et parce qu’il va organiser la Coupe du monde en 2030. J’ai aussi choisi le football parce que je suis un joueur de foot moi même. Un pays qui fait attention au sport que j’adore c’est une chose très importante pour moi, comme joueur. J’ai choisi la culture variée parce que le Maroc combine les cultures arabe et amazighe et plusieurs langues. Finalement, j’ai choisi la nourriture parce que les repas sont très importants pour les familles marocaines.</p>
+      <p>J’espère que mon site vous donne envie de visiter le Maroc!</p>
+      <p class="letter__sign">Bon voyage!</p>
+    </article>
+  </div>
+</section>
+
+<!-- =========================================================
+     10. MES SOURCES
+     ========================================================= -->
+<section id="sources" class="section section--night section--zellige-dark" data-slide="Mes sources" aria-labelledby="sources-title">
+  <div class="container">
+    <header class="section__head" data-reveal>
+      <p class="kicker kicker--light"><span>09</span> Mes sources</p>
+      <h2 id="sources-title">Mes <em>sources</em></h2>
+    </header>
+
+    <!-- Bibliographie APA : entrées de l’élève, copiées telles quelles. -->
+    <div class="bib">
+      <p class="bib__entry">Air France. (n.d.). <em>Air France Canada</em>. Retrieved November 16, 2026, from <a href="https://www.airfrance.ca" target="_blank" rel="noopener noreferrer">https://www.airfrance.ca</a></p>
+      <p class="bib__entry">Atlas Lions make history: Morocco's road to the semi-finals. (2022, December 10). <em>Al Jazeera</em>. <a href="https://www.aljazeera.com/sports/2022/12/10/world-cup-2022-moroccos-road-to-the-semi-final" target="_blank" rel="noopener noreferrer">https://www.aljazeera.com/sports/2022/12/10/world-cup-2022-moroccos-road-to-the-semi-final</a></p>
+      <p class="bib__entry">Célébré dimanche, Id-Yennayer aspire à une extension jusqu'à lundi. (2024, January 10). <em>Hespress FR</em>. <a href="https://fr.hespress.com/347598-celebre-dimanche-id-yennayer-aspire-a-une-extension-jusqua-lundi.html" target="_blank" rel="noopener noreferrer">https://fr.hespress.com/347598-celebre-dimanche-id-yennayer-aspire-a-une-extension-jusqua-lundi.html</a></p>
+      <p class="bib__entry">[Chronicle of Morocco, EP.2] The Arabs in Morocco: From conquest to cultural influence. (2026, November 2). <em>TelQuel</em>. <a href="https://telquel.ma/2026/11/02/chronicle-of-morocco-ep-2-the-arabs-in-morocco-from-conquest-to-cultural-influence_2009595" target="_blank" rel="noopener noreferrer">https://telquel.ma/2026/11/02/chronicle-of-morocco-ep-2-the-arabs-in-morocco-from-conquest-to-cultural-influence_2009595</a></p>
+      <p class="bib__entry">DYSTINCT is taking Moroccan culture global, one hit at a time. (n.d.). <em>Rolling Stone</em>. Retrieved November 16, 2026, from <a href="https://www.rollingstone.com/music/music-features/dystinct-moroccan-singer-1234964551/" target="_blank" rel="noopener noreferrer">https://www.rollingstone.com/music/music-features/dystinct-moroccan-singer-1234964551/</a></p>
+      <p class="bib__entry">Encyclopædia Britannica. (n.d.). Muḥammad VI. In <em>Encyclopædia Britannica</em>. Retrieved November 16, 2026, from <a href="https://www.britannica.com/print/article/396308" target="_blank" rel="noopener noreferrer">https://www.britannica.com/print/article/396308</a></p>
+      <p class="bib__entry">FIFA. (n.d.). <em>FIFA</em>. Retrieved November 16, 2026, from <a href="https://www.fifa.com" target="_blank" rel="noopener noreferrer">https://www.fifa.com</a></p>
+      <p class="bib__entry">Haut-Commissariat au Plan. (n.d.). <em>Haut-Commissariat au Plan du Royaume du Maroc</em>. Retrieved November 16, 2026, from <a href="https://www.hcp.ma" target="_blank" rel="noopener noreferrer">https://www.hcp.ma</a></p>
+      <p class="bib__entry">Jardin Majorelle. (n.d.). <em>Jardin Majorelle</em>. Retrieved November 16, 2026, from <a href="https://www.jardinmajorelle.com" target="_blank" rel="noopener noreferrer">https://www.jardinmajorelle.com</a></p>
+      <p class="bib__entry">Larousse. (n.d.). Muhammad VI ou Mohammed VI. In <em>Encyclopédie Larousse</em>. Retrieved November 16, 2026, from <a href="https://www.larousse.fr/encyclopedie/personnage/Muhammad_VI/134306" target="_blank" rel="noopener noreferrer">https://www.larousse.fr/encyclopedie/personnage/Muhammad_VI/134306</a></p>
+      <p class="bib__entry">Office National Marocain du Tourisme. (n.d.). <em>Visit Morocco</em>. Retrieved November 16, 2026, from <a href="https://www.visitmorocco.com" target="_blank" rel="noopener noreferrer">https://www.visitmorocco.com</a></p>
+      <p class="bib__entry">Office National des Chemins de Fer. (n.d.). <em>ONCF</em>. Retrieved November 16, 2026, from <a href="https://www.oncf.ma" target="_blank" rel="noopener noreferrer">https://www.oncf.ma</a></p>
+      <p class="bib__entry">Olympics.com. (n.d.). <em>FIFA World Cup 2022: Morocco results, scores and standings</em>. Retrieved November 16, 2026, from <a href="https://olympics.com/en/news/fifa-world-cup-2022-morocco-results-scores-and-standings" target="_blank" rel="noopener noreferrer">https://olympics.com/en/news/fifa-world-cup-2022-morocco-results-scores-and-standings</a></p>
+      <p class="bib__entry">Royaume du Maroc. (n.d.). <em>Id Yennayer : une célébration collective qui ravive la mémoire et préserve l'identité nationale</em>. Maroc.ma. Retrieved November 16, 2026, from <a href="https://www.maroc.ma/index%2Ephp/fr/actualites/id-yennayer-une-celebration-collective-qui-ravive-la-memoire-et-preserve-lidentite-nationale" target="_blank" rel="noopener noreferrer">https://www.maroc.ma/index%2Ephp/fr/actualites/id-yennayer-une-celebration-collective-qui-ravive-la-memoire-et-preserve-lidentite-nationale</a></p>
+      <p class="bib__entry">Shazam. (n.d.). <em>DYSTINCT</em> [Artist biography]. Retrieved November 16, 2026, from <a href="https://shazam.com/fr-fr/artist/dystinct/1140248754" target="_blank" rel="noopener noreferrer">https://shazam.com/fr-fr/artist/dystinct/1140248754</a></p>
+      <p class="bib__entry">UNESCO. (n.d.). <em>Patrimoine culturel immatériel</em>. Retrieved November 16, 2026, from <a href="https://ich.unesco.org" target="_blank" rel="noopener noreferrer">https://ich.unesco.org</a></p>
+      <p class="bib__entry">UNESCO World Heritage Centre. (n.d.). <em>UNESCO World Heritage Centre</em>. Retrieved November 16, 2026, from <a href="https://whc.unesco.org" target="_blank" rel="noopener noreferrer">https://whc.unesco.org</a></p>
+      <p class="bib__entry">Vikidia. (n.d.). Babouche. In <em>Vikidia</em>. Retrieved November 16, 2026, from <a href="https://fr.vikidia.org/wiki/Babouche" target="_blank" rel="noopener noreferrer">https://fr.vikidia.org/wiki/Babouche</a></p>
+    </div>
+
+    <p class="credits" data-reveal>Toutes les illustrations sont des dessins originaux en SVG. Polices&nbsp;: Playfair Display, Inter et Noto Sans Tifinagh (licence SIL Open Font). Carte&nbsp;: données Natural Earth (domaine public).</p>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"></div>
+
+<!-- =========================================================
+     11. QUIZ
+     ========================================================= -->
+<section id="quiz" class="section section--quiz" data-slide="Quiz" aria-labelledby="quiz-title">
+  <div class="container">
+    <header class="section__head" data-reveal>
+      <p class="kicker kicker--light"><span>10</span> Quiz</p>
+      <h2 id="quiz-title">Es-tu prêt pour <em>le Maroc&nbsp;?</em></h2>
+      <p class="section__lead">8 questions sur ce site. Clique sur une réponse ou utilise les touches A, B, C et D.</p>
+    </header>
+
+    <div class="quiz" id="quiz-app" data-reveal>
+      <div class="quiz__stars" id="quiz-stars" aria-hidden="true"></div>
+      <div class="quiz__card" id="quiz-card" aria-live="polite">
+        <noscript><p>Le quiz a besoin de JavaScript.</p></noscript>
+      </div>
+      <p class="quiz__hint">Astuce&nbsp;: <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd> pour répondre · <kbd>Entrée</kbd> pour continuer</p>
+    </div>
+
+    <footer class="footer" data-reveal>
+      <p class="footer__thanks"><span>Merci&nbsp;!</span><span lang="ar" dir="rtl">شكراً</span><span class="tfng" lang="zgh">ⵜⴰⵏⵎⵎⵉⵔⵜ</span></p>
+      <p class="footer__meta">Projet de français de base · 12<sup>e</sup> année</p>
+      <a href="#accueil" class="btn btn--ghost btn--small">Retour en haut ↑</a>
+    </footer>
+  </div>
+</section>
+
+</main>
+
+<!-- Mode présentation -->
+<button type="button" class="pres-toggle" id="pres-toggle" data-present aria-label="Mode présentation : flèches pour naviguer, Échap pour quitter">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 8l4 2-4 2z" fill="currentColor"/><path d="M12 16v4M8 20h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  <span class="pres-toggle__label">Mode présentation</span>
+  <span class="pres-toggle__keys"><kbd>P</kbd></span>
+</button>
+<div class="pres-hud" id="pres-hud" aria-live="polite">
+  <span class="pres-hud__count" id="pres-count">1 / 10</span>
+  <span class="pres-hud__title" id="pres-title">Accueil</span>
+  <span class="pres-hud__keys"><kbd>←</kbd><kbd>→</kbd> naviguer · <kbd>Échap</kbd> quitter</span>
+</div>
+<div class="pres-dots" id="pres-dots" aria-hidden="true"></div>
+
+<canvas class="confetti" id="confetti" aria-hidden="true"></canvas>
+
+<script src="js/main.js" defer></script>
+<script src="js/quiz.js" defer></script>
+</body>
+</html>

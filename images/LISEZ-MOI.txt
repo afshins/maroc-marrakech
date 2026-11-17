@@ -1,0 +1,22 @@
+PHOTOS OPTIONNELLES
+===================
+Le site fonctionne SANS photos : chaque emplacement affiche une illustration SVG.
+Pour ajouter une vraie photo, mets un fichier JPG dans ce dossier avec EXACTEMENT ce nom :
+
+  jemaa-el-fna.jpg   -> carte « La place Jemaa el-Fna »
+  majorelle.jpg      -> carte « Le jardin Majorelle »
+  souks.jpg          -> carte « Les souks »
+  bahia.jpg          -> carte « Le palais Bahia »
+  couscous.jpg       -> carte « Le couscous »
+  tajine.jpg         -> carte « Le tajine »
+  pastilla.jpg       -> carte « La pastilla »
+  riad.jpg           -> « Où dormir ? »
+  tapis.jpg          -> « Les tapis berbères »
+  babouches.jpg      -> « Les babouches »
+  dystinct.jpg       -> « Dystinct »
+  taghmaoui.jpg      -> « Saïd Taghmaoui »
+
+Conseils :
+- Format portrait (environ 4:5), 1200 px de large maximum, moins de 400 Ko.
+- Utilise seulement des photos avec une licence libre (par exemple Wikimedia Commons
+  ou Unsplash) et ajoute le crédit du photographe dans la section « Mes sources ».
